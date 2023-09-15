@@ -40,22 +40,26 @@ As this is is a proof of concept, only the following endpoints are enabled.
     <tbody>
         <tr>
             <td rowspan=4>/dt_simulated_weekly</td>
-            <td>/dt_prophet_holiday</td>
-            <td>/robynrun</td>
-        </tr>
-        <tr>
             <td rowspan=4>Collects a robyn input from json, and executes robyn run. Optionally returns one pagers.</td>
-            <td>Returns Robyn prophet holidays dataset</td>
-            <td>>Returns Robyn simulated demand dataset</td>
-        </tr>
-        <tr>
-        </tr>
-        <tr>
             <td>modelData - Serialized dataframe, serialize this in a manner similar to the python example (dataframe -> featherfile -> hexstring)</td>
+        </tr>
+        <tr>
             <td>jsonInput - Additional parameters for robyninputs in json format</td>
+        <tr>
+        <tr>
             <td>jsonRunArgs - Additional parameters for robynrun in json format</td>
+        </tr>
+        <tr>
             <td>onePagers - Boolean - Whether to build the one pager files for models</td>
+        </tr>
+        <tr>
+            <td>/dt_prophet_holiday</td>            
+            <td>Returns Robyn prophet holidays dataset</td>
             <td>None</td>
+        </tr>
+        <tr>
+            <td>/robynrun</td>
+            <td>>Returns Robyn simulated demand dataset</td>
             <td>None</td>
         </tr>
     </tbody>
