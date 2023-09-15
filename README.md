@@ -40,15 +40,12 @@ As this is is a proof of concept, only the following endpoints are enabled.
     <tbody>
         <tr>
             <td rowspan=4>/dt_simulated_weekly</td>
+        </tr>
+        <tr>
             <td>/dt_prophet_holiday</td>
+        </tr>
+        <tr>
             <td>/robynrun</td>
-        </tr>
-        <tr>
-            <td>L3 Name B</td>
-        </tr>
-        <tr>
-            <td rowspan=2>L2 Name B</td>
-            <td>L3 Name C</td>
         </tr>
         <tr>
             <td>L3 Name D</td>
