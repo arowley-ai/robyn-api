@@ -28,6 +28,36 @@ apiBaseUrl = "http://localhost:8000/{}"
 ## End points
 
 As this is is a proof of concept, only the following endpoints are enabled.
+
+<table>
+    <thead>
+        <tr>
+            <th>Endpoint</th>
+            <th>Purpose</th>
+            <th>Arguments</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=4>/dt_simulated_weekly</td>
+            <td>/dt_prophet_holiday</td>
+            <td>/robynrun</td>
+        </tr>
+        <tr>
+            <td>L3 Name B</td>
+        </tr>
+        <tr>
+            <td rowspan=2>L2 Name B</td>
+            <td>L3 Name C</td>
+        </tr>
+        <tr>
+            <td>L3 Name D</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
 | Endpoint             | Arguments |
 | --------             | --------- |
 | /dt_simulated_weekly | None      |
