@@ -71,3 +71,5 @@ The docker container hosting the api is available on dockerhub.
 ```
 docker pull arowley/robyn-api:latest
 ```
+
+It can also be built from within the docker folder. 
