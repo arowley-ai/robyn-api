@@ -14,7 +14,7 @@ To run the docker container locally use:
 docker run -p 8000:8000 --name robyn-api arowley/robyn-api
 ```
 
-To run the example script use
+To run the example script in Python use:
 ```
 pip install -r requirements.txt
 ```
