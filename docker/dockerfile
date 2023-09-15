@@ -54,7 +54,7 @@ RUN python -m pip install matplotlib
 
 WORKDIR /app
 
-WGET https://raw.githubusercontent.com/arowley-ai/robyn-api/main/docker/robyn-api.r /app/robyn-api.r
+RUN wget https://raw.githubusercontent.com/arowley-ai/robyn-api/main/docker/robyn-api.r -O /app/robyn-api.r
 
 EXPOSE 8000
 
