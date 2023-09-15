@@ -6,7 +6,7 @@ This respository is designed to assist in setting up an API for Robyn using [Plu
 
 Enabling and running the API via docker allows the user to call certain Robyn functions using urls that are setup in the api. 
 
-To run the docker locally use 
+To run the docker container locally use:
 
 ```
 docker run -p 8000:8000 --name robyn-api arowley/robyn-api
