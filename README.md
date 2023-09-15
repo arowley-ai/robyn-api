@@ -1,5 +1,5 @@
 # Simple API for robyn
-API for Robyn
+This repository is a simple API for [Robyn](https://github.com/facebookexperimental/Robyn/)
 
 ## Docker hub
 The docker container hosting the api is also available on dockerhub
