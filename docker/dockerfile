@@ -52,10 +52,10 @@ RUN Rscript -e "reticulate::py_config()"
 
 RUN python -m pip install matplotlib
 
-WORKDIR /home/guest
+WORKDIR /app
 
-COPY rscript-api.r rscript-api.r
+WGET https://raw.githubusercontent.com/arowley-ai/robyn-api/main/docker/robyn-api.r /app/robyn-api.r
 
 EXPOSE 8000
 
-CMD ["Rscript","-e","library(plumber); plumb('./rscript-api.r') %>% pr_run(host='0.0.0.0',port=8000)"]
+CMD ["Rscript","-e","library(plumber); plumb('./robyn-api.r') %>% pr_run(host='0.0.0.0',port=8000)"]
