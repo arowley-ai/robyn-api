@@ -65,8 +65,6 @@ As this is is a proof of concept, only the following endpoints are enabled.
     </tbody>
 </table>
 
-## Serialising
-
 ## Docker hub
 The docker container hosting the api is available on dockerhub.
 
