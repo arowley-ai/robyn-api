@@ -27,7 +27,15 @@ apiBaseUrl = "http://localhost:8000/{}"
 
 ## End points
 
-Only the following endpoints are enabled
+As this is is a proof of concept, only the following endpoints are enabled.
+| Endpoint             | Arguments |
+| --------             | --------- |
+| /dt_simulated_weekly | None      |
+| /dt_prophet_holiday  | None      |
+| /robynrun            | modelData |
+
+
+
 - /dt_simulated_weekly - no arguments
 - /dt_prophet_holidays - no arguments
 - /robynrun - arguments are
