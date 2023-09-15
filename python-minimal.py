@@ -4,6 +4,7 @@ import datetime as dt
 import binascii
 import io
 import pandas as pd
+import os
 
 from PIL import Image
 
@@ -87,6 +88,9 @@ payload = {
 response = requests.post(apiBaseUrl.format('robynrun'),data=payload)
 respJson = json.loads(response.content.decode('utf-8'))
 
+if not os.path.exists('./output'):
+    os.makedirs('./output')
+    
 # Optionally dump the entire contents of load to a log somewhere
 with open("output/outfile.json", "w") as outfile:
     outfile.write(json.dumps(respJson, indent=4))
