@@ -18,13 +18,11 @@ To run the example script use
 ```
 pip install -r requirements.txt
 ```
-
 and
-
 ```
 python python-minimal.py
 ```
-
+If you are running the docker container remotely, you may need to update the base url for the api, amend `apiBaseUrl = "http://localhost:8000/{}"` with the correct address.
 
 ## Docker hub
 The docker container hosting the api is available on dockerhub.
