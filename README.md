@@ -59,7 +59,7 @@ As this is is a proof of concept, only the following endpoints are enabled.
         </tr>
         <tr>
             <td>/dt_simulted_weekly</td>
-            <td>>Returns Robyn simulated demand dataset</td>
+            <td>Returns Robyn simulated demand dataset</td>
             <td>None</td>
         </tr>
     </tbody>
