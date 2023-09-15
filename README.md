@@ -49,7 +49,6 @@ As this is is a proof of concept, only the following endpoints are enabled.
             <td>>Returns Robyn simulated demand dataset</td>
         </tr>
         <tr>
-            
         </tr>
         <tr>
             <td>modelData - Serialized dataframe, serialize this in a manner similar to the python example (dataframe -> featherfile -> hexstring)</td>
