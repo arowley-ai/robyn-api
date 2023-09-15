@@ -40,29 +40,27 @@ As this is is a proof of concept, only the following endpoints are enabled.
     <tbody>
         <tr>
             <td rowspan=4>/dt_simulated_weekly</td>
-        </tr>
-        <tr>
             <td>/dt_prophet_holiday</td>
-        </tr>
-        <tr>
             <td>/robynrun</td>
         </tr>
         <tr>
-            <td>L3 Name D</td>
+            <td rowspan=4>Collects a robyn input from json, and executes robyn run. Optionally returns one pagers.</td>
+            <td>Returns Robyn prophet holidays dataset</td>
+            <td>>Returns Robyn simulated demand dataset</td>
+        </tr>
+        <tr>
+            
+        </tr>
+        <tr>
+            <td>modelData - Serialized dataframe, serialize this in a manner similar to the python example (dataframe -> featherfile -> hexstring)</td>
+            <td>jsonInput - Additional parameters for robyninputs in json format</td>
+            <td>jsonRunArgs - Additional parameters for robynrun in json format</td>
+            <td>onePagers - Boolean - Whether to build the one pager files for models</td>
+            <td>None</td>
+            <td>None</td>
         </tr>
     </tbody>
 </table>
-
-
-
-| Endpoint             | Arguments |
-| --------             | --------- |
-| /dt_simulated_weekly | None      |
-| /dt_prophet_holiday  | None      |
-| /robynrun            | modelData - Serialized dataframe, serialize this in a manner similar to the python example (dataframe -> featherfile -> hexstring) |
-|                      | jsonInput - Additional parameters for robyninputs in json format |
-|                      | jsonRunArgs - Additional parameters for robynrun in json format |
-|                      | onePagers - Boolean - Whether to build the one pager files for models |
 
 ## Serialising
 
