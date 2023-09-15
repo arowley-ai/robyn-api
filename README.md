@@ -39,8 +39,8 @@ As this is is a proof of concept, only the following endpoints are enabled.
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4>/dt_simulated_weekly</td>
-            <td rowspan=4>Collects a robyn input from json, and executes robyn run. Optionally returns one pagers.</td>
+            <td rowspan=5>/dt_simulated_weekly</td>
+            <td rowspan=5>Collects a robyn input from json, and executes robyn run. Optionally returns one pagers.</td>
             <td>modelData - Serialized dataframe, serialize this in a manner similar to the python example (dataframe -> featherfile -> hexstring)</td>
         </tr>
         <tr>
