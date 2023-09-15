@@ -88,10 +88,11 @@ payload = {
 response = requests.post(apiBaseUrl.format('robynrun'),data=payload)
 respJson = json.loads(response.content.decode('utf-8'))
 
+# Make directory for output
 if not os.path.exists('./output'):
     os.makedirs('./output')
     
-# Optionally dump the entire contents of load to a log somewhere
+# Optionally dump the entire contents of response to disk
 with open("output/outfile.json", "w") as outfile:
     outfile.write(json.dumps(respJson, indent=4))
 
