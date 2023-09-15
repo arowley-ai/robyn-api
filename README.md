@@ -31,10 +31,10 @@ Only the following endpoints are enabled
 - /dt_simulated_weekly - no arguments
 - /dt_prophet_holidays - no arguments
 - /robynrun - arguments are
-  - modelData serialize this in a manner similar to the python example (dataframe -> featherfile -> hexstring)
-  - jsonInput Additional parameters for robyninputs in json format
-  - jsonRunArgs Additional parameters for robynrun in json format
-  - onePagers Whether to build the one pager files for models
+  - modelData - Serialized dataframe, serialize this in a manner similar to the python example (dataframe -> featherfile -> hexstring)
+  - jsonInput - Additional parameters for robyninputs in json format
+  - jsonRunArgs - Additional parameters for robynrun in json format
+  - onePagers - Boolean - Whether to build the one pager files for models
 
 
 ## Serialising
